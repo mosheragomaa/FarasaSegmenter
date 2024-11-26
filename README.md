@@ -10,7 +10,7 @@ Download
 ---------
 
 QCRI FARASA. Latest release
-You may check-out the latest version from the githup repository: https://github.com/Qatar-Computing-Research-Institute/Farasa
+You may check-out the latest version from the github repository: https://github.com/Qatar-Computing-Research-Institute/Farasa
 <!-- Data directory is not included. Download the data from http://alt.qcri.org/tools/farasaData.tgz 
 -->
 
@@ -24,7 +24,7 @@ How to run the software
 ------------------------
 1 - Command line:
 
-Limux/Mac OS
+Linux/Mac OS
 
 	set FarasaDataDir=<FarasaData>\
 	java -Dfile.encoding=UTF-8 -jar dist/Farasa.jar -i InputFile -o OutputFile
@@ -48,7 +48,7 @@ Example:
 
 	FarasaDataDir=<FarasaDataDirectory>/ java -Dfile.encoding=UTF-8 -jar dist/Farasa.jar < testfile.txt
 	
-For Windows Environment: You may require to explicitly specify the library path:
+For Windows Environment: You may be required to explicitly specify the library path:
 
 	set FarasaDataDir=<FARASADATADIR>/
 	java -Dfile.encoding=UTF-8 -jar dist/Farasa.jar < testfile.txt
@@ -60,7 +60,7 @@ Build the jar:
  
 	ant jar
 	
-Deploy the package to other direcotory:
+Deploy the package to other directory:
 
 	ant deploy -Do=<Dest Dir>
 
